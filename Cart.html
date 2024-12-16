@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <!-- عنوان الصفحة -->
+    <h1 class="cart-title">My Cart</h1>
+
+    <section class="cart-container">
+        <!-- عنصر المنتج الأول -->
+        <div class="cart-item">
+            <img src="45d46aeb46abd6cad7298b2b202596f8.jpg" alt="Product Image">
+            <div class="item-info">
+                <h2>Wooden Chair</h2>
+                <p>$120</p>
+            </div>
+            <div class="item-quantity">
+                <button>-</button>
+                <input type="number" value="1">
+                <button>+</button>
+            </div>
+            <button class="remove-btn">X</button>
+        </div>
+
+        <!-- عنصر المنتج الثاني -->
+        <div class="cart-item">
+            <img src="cc7d946dd29e9d23e9244607c7113812.jpg" alt="Product Image">
+            <div class="item-info">
+                <h2>Classic Table</h2>
+                <p>$150</p>
+            </div>
+            <div class="item-quantity">
+                <button>-</button>
+                <input type="number" value="1">
+                <button>+</button>
+            </div>
+            <button class="remove-btn">X</button>
+        </div>
+
+        <!--التوتال-->
+        <div class="total-section">
+            <h3>Total: $270</h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+</body>
+</html>
